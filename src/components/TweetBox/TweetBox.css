@@ -1,0 +1,25 @@
+.tweetbox {
+    padding: 10px;
+    margin-bottom: 10px; 
+    background-color:#E5F0F4;
+}
+.tweetbox textarea {
+    width: 100%;
+    outline: none;
+    border-color: #C6E7FB;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+.alert {
+    border-color:#dc3545;
+}
+.action {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.count {
+    margin-right: 10px;
+    color: gray;
+}

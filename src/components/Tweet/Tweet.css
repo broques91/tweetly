@@ -1,0 +1,23 @@
+.tweet{
+    display: flex;
+    padding: 10px 30px;
+    background-color: white;
+}
+
+.avatar img{
+    max-width: 64px;
+    height: auto;
+    border-radius: 50%;
+    border:1px solid gray;
+    margin-right: 10px;
+}
+.fullname{
+    margin-right:5px;
+}
+.date{
+    margin-left:5px;
+}
+
+.gray{
+    color: gray;
+}
