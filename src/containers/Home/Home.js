@@ -29,6 +29,11 @@ class Home extends Component {
         });
     };
     
+    remove = index => {
+        const { tweets} = this.state;
+        this.setState({ tweets: tweets.filter((tweet, i) => i !== index) });
+    }
+
     render() {
         const { tweets } = this.state;
 
@@ -40,6 +45,8 @@ class Home extends Component {
                         {tweets.map((tweet, index) => (
                             <Tweet
                                 key={index}
+                                index={index}
+                                remove={this.remove}
                                 {...tweet}
                             />
                         ))}
